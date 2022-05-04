@@ -4,8 +4,7 @@ import React from'react';
 function Welcome (props){
     return(
         <>
-        <h1>Hey !</h1>
-        <p>{props.name}</p>
+        <h1>Hey !  {props.name}</h1>
         <h2>Welcome to Newton School.</h2>
         </>
     );
